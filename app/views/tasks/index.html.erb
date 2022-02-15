@@ -1,0 +1,14 @@
+<h2>TASK page (index)</h2>
+
+<div class="task-container">
+<ul>
+  <% @tasks.each do |task| %>
+    <div class="task-box">
+      <li><%= link_to task.title, task_path(task.id) %>
+      <%= link_to 'Destroy', task_path(task), method: :delete %></li>
+    </div>
+  <% end %>
+</ul>
+</div>
+<%= link_to "New Task", tasks_new_path %>
+

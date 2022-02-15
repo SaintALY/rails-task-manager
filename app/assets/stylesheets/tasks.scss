@@ -1,0 +1,30 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.task-container {
+    width: 400px;
+    border-width: 2px;
+    background-color: rgb(214, 214, 214);
+    align: center;
+}
+.task-box {
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    outline-style: dashed;
+    outline-width: 1px;
+    outline-color: bisque;
+    background-color: rgb(236, 236, 236);
+    margin: 10px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+    color: rgb(56, 47, 173);
+    text-decoration: none;
+}
+a:hover {
+    color: hotpink;
+}
+
